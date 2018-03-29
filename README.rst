@@ -32,8 +32,15 @@ If no list is specified, all logs are printed. If both lists are specified, the 
 
 Hint: To omit all log output, specify an include list with an unused tag e.g. LOG_INCLUDE=_nothing
 
-Usage
------
+Installation
+------------
+
+.. code-block:: bash
+
+    $ pip install rlog
+
+Getting Started
+---------------
 
 .. code-block:: bash
 
@@ -41,7 +48,7 @@ Usage
 
 .. code-block:: python
 
-    from rlib import log
+    from rlog import log
 
     log.debug('How many fingers:', 10)
     log.something(['some_tag'], 'Output something with additional tag.')
