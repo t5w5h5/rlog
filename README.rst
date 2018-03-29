@@ -37,7 +37,7 @@ Installation
 
 .. code-block:: bash
 
-    $ pip install rlog
+    $ pip install rlib-log
 
 Getting Started
 ---------------

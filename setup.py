@@ -25,7 +25,7 @@ def read_file(filename):
 
 
 setup(
-    name='rlog',
+    name='rlib-log',
     packages=['rlog'],
     version='0.1',
     description='Tag-based logging for Python 3.',
